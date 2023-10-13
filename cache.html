@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest"><head>
+<title>host by joker ps4</title>
+<style>
+html, body {
+background-image: url('img.jpg');
+background-size: 100%;
+background-repeat: no-repeat;
+background-color: #24272b;
+color: white;
+text-align: center;
+margin: 0px;
+overflow: hidden;
+}
+.yellow {
+  color:yellow;
+ }
+.hue {
+  color:yellow;
+  padding:10px;
+  border-radius:10px;
+  animation:hue 5s linear infinite;
+  -webkit-animation: hue 5s linear infinite;
+  box-shadow: 0px 0px 50px yellow;
+  color:white;
+  background:rgba(255,255,0,0.4);
+ }
+ .hue:hover{
+  color:yellow;
+  background:transparent;
+ }
+ @keyframes hue{
+ 0%{
+ filter:hue-rotate(0deg);
+ -webkit-filter:hue-rotate(0deg);
+ }
+ 10%{
+ box-shadow: 0px 1px 50px yellow;
+ }
+ 20%{
+ box-shadow: 1px 1px 50px yellow;
+ }
+ 30%{
+ box-shadow: 1px 0px 50px yellow;
+ }
+ 40%{
+  box-shadow: 1px -1px 50px yellow;
+ }
+ 50%{
+ box-shadow: 0px -1px 50px yellow;
+ }
+ 60%{
+ box-shadow: -1px -1px 50px yellow;
+ }
+ 70%{
+ box-shadow: -1px 0px 50px yellow;
+ }
+ 80%{
+ box-shadow: -1px 1px 50px yellow;
+ }
+ 90%{
+ box-shadow: 0px 1px 50px yellow;
+ }
+ 100%{
+ filter:hue-rotate(360deg);
+ -webkit-filter:hue-rotate(360deg);
+ }
+ }
+.content {
+  width:80%;
+  margin-left:7.5%;
+  background:rgba(0,0,0,0.5);
+  color:white;
+  margin-top:0%;
+  font-size:25px;
+  text-align:center;
+  border-radius:30px;
+  padding:20px;
+  line-height:13px;
+  position:absolute;bottom:0px;
+ }
+a {
+text-decoration: none;
+}
+</style>
+</head>
+<body>
+<script>
+history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));setTimeout(function(){window.msgs2.innerHTML="Installing Offline Cache: " + Percent + "%";},500)}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs2.innerHTML="Cache Installed Successfully ✔";},1500);setTimeout(function(){window.msgs2.innerHTML="Now Close And Re-Open Your Browser ...";},3500);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+<h1 id="msgs">host by joker ps4</h1>
+<hr>
+<br>
+<h1 id=msgs2 style="font-size: 30px;margin-top: 77px;margin-bottom: 391px;"> Waiting... </h1>
+<br>
+<div class="content" >
+ 	 <br><span style="text-shadow: 4px 4px 4px black;" class="yellow" >The engineer :</span >&nbsp;&nbsp; <span style="text-shadow: 4px 4px 4px black;" class="hue" >Sherif Ahmed</span>
+			<br><br><br><br><span style="text-shadow: 4px 4px 4px black;" class="yellow" >PLAY STATIO :</span >&nbsp;&nbsp; <span style="text-shadow: 4px 4px 4px black;" class="hue" >EL JOKER</span>
+ 	        <br><br><br><br><span style="text-shadow: 4px 4px 4px black;" class="yellow" >The Address :</span >&nbsp;&nbsp; <span style="text-shadow: 4px 4px 4px black;" class=" hue" >شارع 8 المتفرع من شارع 25 طوسون</span>
+ </div>
+</body>
+</html>
